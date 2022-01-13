@@ -51,11 +51,11 @@ View this project's [R Notebook](https://github.com/cluffa/nlp_intro_R/blob/mast
 
 View this project's [R Notebook](https://github.com/cluffa/kmeans_image_clustering_R/blob/master/README.md).  
 
-![clothing](https://github.com/cluffa/kmeans_image_clustering_R/raw/master/kmeans_clustering_files/figure-gfm/unnamed-chunk-3-1.png) 
+![clothing](./images/full_clothing.png) 
 
 High Heeled Shoes             |  Long Sleeved Shirts
 :-------------------------:|:-------------------------:
-![](https://github.com/cluffa/kmeans_image_clustering_R/raw/master/kmeans_clustering_files/figure-gfm/unnamed-chunk-10-7.png)  |  ![](https://github.com/cluffa/kmeans_image_clustering_R/raw/master/kmeans_clustering_files/figure-gfm/unnamed-chunk-10-8.png)
+![](./images/shoes.png)  |  ![](./images/shirts.png)
 
  
 
