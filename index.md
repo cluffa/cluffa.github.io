@@ -51,9 +51,9 @@ View this project's [R Notebook](https://github.com/cluffa/nlp_intro_R/blob/mast
 
 View this project's [R Notebook](https://github.com/cluffa/kmeans_image_clustering_R/blob/master/README.md).  
 
-![clothing](https://github.com/cluffa/kmeans_image_clustering_R/raw/master/kmeans_clustering_files/figure-gfm/unnamed-chunk-10-1.png) 
+![clothing](https://github.com/cluffa/kmeans_image_clustering_R/raw/master/kmeans_clustering_files/figure-gfm/unnamed-chunk-3-1.png) 
 
-High Heeled Shoes             |  Long Sleeved Shoes
+High Heeled Shoes             |  Long Sleeved Shirts
 :-------------------------:|:-------------------------:
 ![](https://github.com/cluffa/kmeans_image_clustering_R/raw/master/kmeans_clustering_files/figure-gfm/unnamed-chunk-10-7.png)  |  ![](https://github.com/cluffa/kmeans_image_clustering_R/raw/master/kmeans_clustering_files/figure-gfm/unnamed-chunk-10-8.png)
 
@@ -67,4 +67,8 @@ Feature engineering like multivariate imputing and matching families got me to a
 
 ### *- Recognizing Digit with a Convolutional Neural Network using TensorFlow, Keras, and Python*  
 
-View this project's [Jupyter Notebook](https://github.com/cluffa/digit_recognizer/blob/master/digits_tfnn.ipynb).  
+View this project's [Jupyter Notebook](https://github.com/cluffa/digit_recognizer/blob/master/digits_tfnn.ipynb) using neural networks and [Jupyter Notebook](https://github.com/cluffa/digit_recognizer/blob/master/digits.ipynb) using a standard machine learning model.  
+
+![digits](./images/digits.png)
+
+I achieved 97.4% accuracy with an XGBoost model and 99.2% with a convolutional neural network using a TensorFlow keras sequential model. 
