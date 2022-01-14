@@ -1,6 +1,6 @@
 # *Portfolio*
 
-This page is a work in progress. All projects are listed, but not all descriptions are finished.
+Welcome to my portfolio. Below is a list of school and personal projects. Each has a description and links to a final report and source code or a notebook.
 
 ## **Visualization**
 
@@ -43,9 +43,11 @@ This was a group project. I handled the random forest model as well as the data 
 
 View this project's [final report](https://github.com/cluffa/stat3303project/blob/master/Final_project_Alex_Cluff.pdf), [report source code](https://github.com/cluffa/stat3303project/blob/master/Final_project_Alex_Cluff.Rmd), and [model fitting source code](https://github.com/cluffa/stat3303project/blob/master/fit.R)
 
-### *- Classification of Tweets as Being the Result of a Disaster Using R*  
+### *- Classification of Tweets as Being the Result of a Disaster in R Using a Stacked Random Forest - Logistic Regression Model*  
 
 View this project's [R Notebook](https://github.com/cluffa/nlp_intro_R/blob/master/README.md).  
+
+This was my first time handling large amounts of text data in R as well as using a stacked model. I used 3 random forest models for each of the three text field for each tweet. Text body, keyword, and location. My thought was that combining these three models as inputs to a logistic regression model would help balance the effect of each text field (or group of predictors because I used bag-of-words style encoding). Although this seems ok in theory, the stacking fixes a problem that random forest models don't have. They are flexible enough to account for this.
 
 ### *- K-means Image Clustering in R*  
 
@@ -57,13 +59,21 @@ High Heeled Shoes             |  Long Sleeved Shirts
 :-------------------------:|:-------------------------:
 ![](./images/shoes.png)  |  ![](./images/shirts.png)
 
- 
+This project was an experiment with unsupervised learning and clustering in R using a k-means model. I started off with a set of labeled clothing items. I removed labels and clustered them into different amounts of groups using different types of image processing. The pictures above are 2 out of 10 groups that were clustered based on the shape of the clothing. Other k-means models had the tendency to cluster based on brightness and it was negatively effecting the grouping of different item types. These two are easily identifiable as high heeled shoes and long sleeved shirts.  
 
 ### *- Predicting Survivors of the Titanic in Python Using Scikit-learn.*  
 
-View this project's [Jupyter Notebook](https://github.com/cluffa/titanic/blob/master/titanicV2.ipynb).  
+View this project's [Jupyter Notebook](https://github.com/cluffa/titanic/blob/master/titanicV2.ipynb). Most of the graphing and data exploration was done in the [first version of the notebook](https://github.com/cluffa/titanic/blob/master/titanicV2.ipynb) where I added no features.
+```
+PassengerId  Survived  Pclass                                               Name     Sex   Age  SibSp  Parch            Ticket     Fare Cabin Embarked
+          1         0       3                            Braund, Mr. Owen Harris    male  22.0      1      0         A/5 21171   7.2500   NaN        S
+          2         1       1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  38.0      1      0          PC 17599  71.2833   C85        C
+          3         1       3                             Heikkinen, Miss. Laina  female  26.0      0      0  STON/O2. 3101282   7.9250   NaN        S
+          4         1       1       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  35.0      1      0            113803  53.1000  C123        S
+          5         0       3                           Allen, Mr. William Henry    male  35.0      0      0            373450   8.0500   NaN        S
+```
 
-Feature engineering like multivariate imputing and matching families got me to a kaggle accuracy score of 0.801 and position 623 out of 13,000 where the top 160 are falsified entries. I used sklearn libraries for modeling as well as cleaning. The model used is a gradient boosting classifier.
+This notebook was used to submit scores to Kaggle's "Titanic: Machine Learning From Disaster" competition. With feature engineering like multivariate imputing and matching families, I achieved an accuracy score of 0.801 when submitting. This put me in the top 5% of the leaderboard. I used sklearn libraries for modeling as well as cleaning. The model used is a gradient boosting classifier.
 
 ### *- Recognizing Digit with a Convolutional Neural Network using TensorFlow, Keras, and Python*  
 
@@ -71,4 +81,4 @@ View this project's [Jupyter Notebook](https://github.com/cluffa/digit_recognize
 
 ![digits](./images/digits.png)
 
-I achieved 97.4% accuracy with an XGBoost model and 99.2% with a convolutional neural network using a TensorFlow keras sequential model. 
+I achieved 97.4% testing accuracy with an XGBoost model and 99.2% with a convolutional neural network using a TensorFlow keras sequential model. 
