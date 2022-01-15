@@ -66,7 +66,7 @@ High Heeled Shoes             |  Long Sleeved Shirts
 :-------------------------:|:-------------------------:
 ![](./images/shoes.png)  |  ![](./images/shirts.png)
 
-This project was an experiment with unsupervised learning and clustering in R using a k-means model. I started off with a set of labeled clothing items. I removed labels and clustered them into different amounts of groups using different types of image processing. The pictures above are 2 out of 10 groups that were clustered based on the shape of the clothing. Other k-means models had the tendency to cluster based on brightness and it was negatively effecting the grouping of different item types. These two are easily identifiable as high heeled shoes and long sleeved shirts.  
+This project was an experiment with unsupervised learning and clustering in R using a k-means model. I started off with a set of labeled clothing items. I removed labels and clustered them into different amounts of groups using different types of image processing. The pictures above are 2 out of 10 groups that were clustered based on the shape of the clothing. Other k-means models with no image processing had the tendency to cluster based on brightness and it was negatively effecting the grouping of different item types. These two are easily identifiable as high heeled shoes and long sleeved shirts.  
 
 ### *- Predicting Survivors of the Titanic in Python Using Scikit-learn.*  
 
