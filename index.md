@@ -37,11 +37,18 @@ The idea for this assignment was to gain experience and become more comfortable 
 
 View this project's [final report](https://github.com/cluffa/stat4620project/blob/master/final_report_made_in_colaboration_with_classmates.pdf), [source code for the random forest model](https://github.com/cluffa/stat4620project/blob/master/randomForest.R), and [source code for cleaning the data](https://github.com/cluffa/stat4620project/blob/master/clean_autos_dataset.R).  
 
-This was a group project. I handled the random forest model as well as the data cleaning.
+This was a group project. I handled the random forest model as well as the data cleaning. We each tried a model and compared results. The random forest model came out on top based on testing MSE.
 
 ### *- Fitting a Bayesian Hierarchical Model on Fake Flu Data. Simulated with an MCMC algorithm using R and Rjags/jags.*
 
-View this project's [final report](https://github.com/cluffa/stat3303project/blob/master/Final_project_Alex_Cluff.pdf), [report source code](https://github.com/cluffa/stat3303project/blob/master/Final_project_Alex_Cluff.Rmd), and [model fitting source code](https://github.com/cluffa/stat3303project/blob/master/fit.R)
+View this project's [final report](https://github.com/cluffa/stat3303project/blob/master/Final_project_Alex_Cluff.pdf), [report source code](https://github.com/cluffa/stat3303project/blob/master/Final_project_Alex_Cluff.Rmd), and [model fitting source code](https://github.com/cluffa/stat3303project/blob/master/fit.R)  
+
+The setup for this project:  
+"There are two tests for influenza strain K9C9. The data collected consists of 10 countries and 100 pairs of
+test results. The more accurate of the tests will be assumed fact. The less accurate test, EZK, is the area of
+interest for this project. A bayesian hierarchical model will be fit and it will be simulated with an MCMC
+algorithm using R/jags."  
+I fit the model, assess fit, and interpret the results in the context of a global pandemic.
 
 ### *- Classification of Tweets as Being the Result of a Disaster in R Using a Stacked Random Forest - Logistic Regression Model*  
 
