@@ -1,4 +1,4 @@
-# *Portfolio*
+# **Portfolio**
 
 Welcome to my portfolio. Below is a list of school and personal projects. Each has a description and links to a final report and source code or a notebook.
 
@@ -46,7 +46,7 @@ View this project's [final report](https://github.com/cluffa/stat3303project/blo
 The setup for this project:  
 "There are two tests for influenza strain K9C9. The data collected consists of 10 countries and 100 pairs of
 test results. The more accurate of the tests will be assumed fact. The less accurate test, EZK, is the area of
-interest for this project. A bayesian hierarchical model will be fit and it will be simulated with an MCMC
+interest for this project. A Bayesian hierarchical model will be fit and it will be simulated with an MCMC
 algorithm using R/jags."  
 I fit the model, assess fit, and interpret the results in the context of a global pandemic.
 
