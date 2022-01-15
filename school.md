@@ -1,5 +1,7 @@
+---
 layout: page
 title: "School Projects"
-permalink: /projects/school/
+permalink: /projects/
+---
 
 test 2
