@@ -70,7 +70,7 @@ This project was an experiment with unsupervised learning and clustering in R us
 
 ### *- Predicting Survivors of the Titanic in Python Using Scikit-learn.*  
 
-View this project's [Jupyter Notebook](https://github.com/cluffa/titanic/blob/master/titanicV2.ipynb). Most of the graphing and data exploration was done in the [first version of the notebook](https://github.com/cluffa/titanic/blob/master/titanicV2.ipynb) where I added no features.
+View this project's [Jupyter Notebook](https://github.com/cluffa/titanic/blob/master/titanicV2.ipynb). Most of the graphing and data exploration was done in the [first version of the notebook](https://github.com/cluffa/titanic/blob/master/titanic.ipynb) where I added no features.
 ```
 PassengerId  Survived  Pclass                                               Name     Sex   Age  SibSp  Parch            Ticket     Fare Cabin Embarked
           1         0       3                            Braund, Mr. Owen Harris    male  22.0      1      0         A/5 21171   7.2500   NaN        S
@@ -82,10 +82,10 @@ PassengerId  Survived  Pclass                                               Name
 
 This notebook was used to submit scores to Kaggle's "Titanic: Machine Learning From Disaster" competition. With feature engineering like multivariate imputing and matching families, I achieved an accuracy score of 0.801 when submitting. This put me in the top 5% of the leaderboard. I used sklearn libraries for modeling as well as cleaning. The model used is a gradient boosting classifier.
 
-### *- Recognizing Digit with a Convolutional Neural Network using TensorFlow, Keras, and Python*  
+### *- Recognizing Digit in the MINST dataset with a Convolutional Neural Network using TensorFlow, Keras, and Python*  
 
 View this project's [Jupyter Notebook](https://github.com/cluffa/digit_recognizer/blob/master/digits_tfnn.ipynb) using neural networks and [Jupyter Notebook](https://github.com/cluffa/digit_recognizer/blob/master/digits.ipynb) using a standard machine learning model.  
 
 ![digits](./images/digits.png)
 
-I achieved 97.4% testing accuracy with an XGBoost model and 99.2% with a convolutional neural network using a TensorFlow keras sequential model. 
+This is another Kaggle competition. I achieved 97.4% testing accuracy with an XGBoost model and 99.1% with a convolutional neural network using a TensorFlow keras sequential model. 
