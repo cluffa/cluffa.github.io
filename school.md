@@ -2,7 +2,7 @@
 layout: page
 title: "School Projects"
 permalink: /projects/school/
-theme: jekyll-theme-minimal
+theme: default
 ---
 
 # School Projects

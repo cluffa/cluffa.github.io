@@ -2,7 +2,7 @@
 layout: page
 title: "Personal Projects"
 permalink: /projects/personal/
-theme: jekyll-theme-minimal
+theme: default
 ---
 
 # Personal Projects
