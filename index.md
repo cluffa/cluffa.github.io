@@ -4,6 +4,8 @@ Welcome to my portfolio. Below is a list of school and personal projects. Each h
 
 - [**Portfolio**](#portfolio)
 - [**Personal Projects**](#personal-projects)
+  - [**Data Collection and Cleaning**](#data-collection-and-cleaning)
+    - [- *Scraping the IWF Website for Event Results And Athlete Data*](#--scraping-the-iwf-website-for-event-results-and-athlete-data)
   - [**Machine Learning**](#machine-learning)
     - [- *Classification of Tweets as Being the Result of a Disaster in R Using a Stacked Random Forest - Logistic Regression Model*](#--classification-of-tweets-as-being-the-result-of-a-disaster-in-r-using-a-stacked-random-forest---logistic-regression-model)
     - [- *K-means Image Clustering in R*](#--k-means-image-clustering-in-r)
@@ -23,6 +25,12 @@ Welcome to my portfolio. Below is a list of school and personal projects. Each h
 <br /><br />
 
 # **Personal Projects**
+
+## **Data Collection and Cleaning**
+
+### - *Scraping the IWF Website for Event Results And Athlete Data*
+
+The repository is [github.com/cluffa/IWF_data](https://github.com/cluffa/IWF_data). I scraped many pages for all event results and athlete stats from the International Weightlifting Federation's website. I used the beautifulsoup package in python. See README for page links.
 
 ## **Machine Learning**
 
