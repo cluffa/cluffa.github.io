@@ -4,8 +4,6 @@ Welcome to my portfolio. Below is a list of school and personal projects. Each h
 
 - [**Portfolio**](#portfolio)
 - [**Personal Projects**](#personal-projects)
-  - [**Full Collection, Exploration, Analysis, and Application**](#full-collection-exploration-analysis-and-application)
-    - [- *Weightlifting*](#--weightlifting)
   - [**Machine Learning**](#machine-learning)
     - [- *Classification of Tweets as Being the Result of a Disaster in R Using a Stacked Random Forest - Logistic Regression Model*](#--classification-of-tweets-as-being-the-result-of-a-disaster-in-r-using-a-stacked-random-forest---logistic-regression-model)
     - [- *K-means Image Clustering in R*](#--k-means-image-clustering-in-r)
@@ -25,24 +23,6 @@ Welcome to my portfolio. Below is a list of school and personal projects. Each h
 <br /><br />
 
 # **Personal Projects**
-
-## **Full Collection, Exploration, Analysis, and Application**
-
-### - *Weightlifting*
-
-Currently I am working on analyzing weightlifting competitions. The plan is to look into:
-- competition strategy
-- bar path tracing
-  - mapping speed/location
-  - probability of completing the lift based on current speed/trajectory
-  - comparison to elite level
-- predicting PED use
-- analyzing historical results
-  - visualize
-
-I also plan to create a dashboard to keep track of my own progress.
-
-The repository is [here](https://github.com/cluffa/weightlifting)
 
 ## **Machine Learning**
 
