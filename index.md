@@ -48,12 +48,12 @@ This project was an experiment with unsupervised learning and clustering in R us
 
 View this project's [Jupyter Notebook](https://github.com/cluffa/titanic/blob/master/titanicV2.ipynb). Most of the graphing and data exploration was done in the [first version of the notebook](https://github.com/cluffa/titanic/blob/master/titanic.ipynb) where I added no features.
 ```
-PassengerId  Survived  Pclass                                               Name     Sex   Age  SibSp  Parch            Ticket     Fare Cabin Embarked
-          1         0       3                            Braund, Mr. Owen Harris    male  22.0      1      0         A/5 21171   7.2500   NaN        S
-          2         1       1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  38.0      1      0          PC 17599  71.2833   C85        C
-          3         1       3                             Heikkinen, Miss. Laina  female  26.0      0      0  STON/O2. 3101282   7.9250   NaN        S
-          4         1       1       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  35.0      1      0            113803  53.1000  C123        S
-          5         0       3                           Allen, Mr. William Henry    male  35.0      0      0            373450   8.0500   NaN        S
+Id  Survived  Pclass                                            Name     Sex   Age  SibSp  Parch         Ticket     Fare Cabin Embarked
+ 1         0       3                       Braund, Mr. Owen Harris    male  22.0      1      0      A/5 21171   7.2500   NaN        S
+ 2         1       1  Cumings, Mrs. John Bradley (Florence Brig...  female  38.0      1      0       PC 17599  71.2833   C85        C
+ 3         1       3                        Heikkinen, Miss. Laina  female  26.0      0      0  STON/O2. 3...   7.9250   NaN        S
+ 4         1       1  Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  35.0      1      0         113803  53.1000  C123        S
+ 5         0       3                      Allen, Mr. William Henry    male  35.0      0      0         373450   8.0500   NaN        S
 ```
 
 This notebook was used to submit scores to Kaggle's "Titanic: Machine Learning From Disaster" competition. With feature engineering like multivariate imputing and matching families, I achieved an accuracy score of 0.801 when submitting. This put me in the top 5% of the leaderboard. I used sklearn libraries for modeling as well as cleaning. The model used is a gradient boosting classifier.
