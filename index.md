@@ -2,6 +2,8 @@
 
 Welcome to my portfolio. Below is a list of school and personal projects. Each has a description and links to a final report and source code or a notebook.
 
+## **Contents**
+
 - [**Portfolio**](#portfolio)
 - [**Personal Projects**](#personal-projects)
   - [**Data Collection and Cleaning**](#data-collection-and-cleaning)
@@ -30,7 +32,7 @@ Welcome to my portfolio. Below is a list of school and personal projects. Each h
 
 ### - *Scraping the IWF Website for Event Results And Athlete Data*
 
-The repository is [github.com/cluffa/IWF_data](https://github.com/cluffa/IWF_data). I scraped many pages for all event results and athlete stats from the International Weightlifting Federation's website. I used the beautifulsoup package in python. See README for page links.
+The repository is [github.com/cluffa/IWF_data](https://github.com/cluffa/IWF_data). I scraped many pages for all event results and athlete stats from the International Weightlifting Federation's website. I used python for scraping and cleaned the data in R. I plan to do an analysis on certain topics such as going up in weight after a failed attempt, chosing an opening weight, comparison of countries, and predicting PED use.
 
 ## **Machine Learning**
 
@@ -38,7 +40,7 @@ The repository is [github.com/cluffa/IWF_data](https://github.com/cluffa/IWF_dat
 
 View this project's [R Notebook](https://github.com/cluffa/nlp_intro_R/blob/master/README.md).  
 
-This was my first time handling large amounts of text data in R as well as using a stacked model. I used 3 random forest models for each of the three text field for each tweet. Text body, keyword, and location. My thought was that combining these three models as inputs to a logistic regression model would help balance the effect of each text field (or group of predictors because I used bag-of-words style encoding). Although this seems ok in theory, the stacking fixes a problem that random forest models don't have. They are flexible enough to account for this.
+This was my first time handling large amounts of text data in R as well as using a stacked model. I used 3 random forest models for each of the three text field for each tweet. Text body, keyword, and location. My thought was that combining these three models as inputs to a logistic regression model would help balance the effect of each text field (or group of predictors because I used bag-of-words style encoding). Although this seems like an improvement over a single random forest, the stacking does not give much of an increase in accuracy.
 
 ### - *K-means Image Clustering in R*  
 
