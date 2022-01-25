@@ -16,7 +16,7 @@ Welcome to my portfolio. Below is a list of school and personal projects. Each h
     - [- *Visualization of the Gapminder Dataset Using ggplot/tidyverse Packages in R*](#--visualization-of-the-gapminder-dataset-using-ggplottidyverse-packages-in-r)
   - [**Time Series Analysis**](#time-series-analysis)
     - [- *Analysis of Homicides in the US Over Time Using R and an ARMA/SARIMA Model*](#--analysis-of-homicides-in-the-us-over-time-using-r-and-an-armasarima-model)
-  - [**Regression Modeling**](#regression-modeling)
+  - [**Regression Analysis**](#regression-analysis)
     - [- *Reproducing the Results and Logistic Regression Model of a study on Modeling Prison Sentencing From Facial Features*](#--reproducing-the-results-and-logistic-regression-model-of-a-study-on-modeling-prison-sentencing-from-facial-features)
   - [**Machine Learning**](#machine-learning-1)
     - [- *Predicting Ebay Car Prices Using a Random Forest Model in R*](#--predicting-ebay-car-prices-using-a-random-forest-model-in-r)
@@ -30,7 +30,7 @@ Welcome to my portfolio. Below is a list of school and personal projects. Each h
 
 ### - *Scraping the IWF Website for Event Results And Athlete Data*
 
-The repository is [github.com/cluffa/IWF_data](https://github.com/cluffa/IWF_data). I scraped many pages for all event results and athlete stats from the International Weightlifting Federation's website. I used the beautifulsoup package in python. See README for page links.
+The repository is [github.com/cluffa/IWF_data](https://github.com/cluffa/IWF_data). I scraped many pages for all event results and athlete stats from the International Weightlifting Federation's website. I used python for scraping and cleaned the data in R. I plan to do an analysis on certain topics such as going up in weight after a failed attempt, chosing an opening weight, comparison of countries, and predicting PED use.
 
 ## **Machine Learning**
 
@@ -44,7 +44,7 @@ This was my first time handling large amounts of text data in R as well as using
 
 View this project's [R Notebook](https://github.com/cluffa/kmeans_image_clustering_R/blob/master/README.md).  
 
-![clothing](./images/full_clothing.png) 
+![clothing](./images/full_clothing.png)
 
 High Heeled Shoes             |  Long Sleeved Shirts
 :-------------------------:|:-------------------------:
@@ -55,6 +55,7 @@ This project was an experiment with unsupervised learning and clustering in R us
 ### - *Predicting Survivors of the Titanic in Python Using Scikit-learn.*  
 
 View this project's [Jupyter Notebook](https://github.com/cluffa/titanic/blob/master/titanicV2.ipynb). Most of the graphing and data exploration was done in the [first version of the notebook](https://github.com/cluffa/titanic/blob/master/titanic.ipynb) where I added no features.
+
 ```
 Id  Survived  Pclass                                            Name     Sex   Age  SibSp  Parch         Ticket     Fare Cabin Embarked
  1         0       3                       Braund, Mr. Owen Harris    male  22.0      1      0      A/5 21171   7.2500   NaN        S
@@ -72,7 +73,7 @@ View this project's [Jupyter Notebook](https://github.com/cluffa/digit_recognize
 
 ![digits](./images/digits.png)
 
-This is another Kaggle competition. I achieved 97.4% testing accuracy with an XGBoost model and 99.1% with a convolutional neural network using a TensorFlow keras sequential model. 
+This is another Kaggle competition. I achieved 97.4% testing accuracy with an XGBoost model and 99.1% with a convolutional neural network using a TensorFlow keras sequential model.
 
 <br /><br />
 
@@ -97,7 +98,7 @@ View this project's [final report](https://github.com/cluffa/stat5550project/blo
 
 This project was based around forecasting methods. I find overall trends, monthly seasonality, and fit ARIMA and SARIMA models. I compare the two model's performance as well as fit. I then forecasted homicides for the next 24 months.
 
-## **Regression Modeling**
+## **Regression Analysis**
 
 ### - *Reproducing the Results and Logistic Regression Model of a study on Modeling Prison Sentencing From Facial Features*
 
