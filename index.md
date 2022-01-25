@@ -5,6 +5,7 @@ Welcome to my portfolio. Below is a list of school and personal projects. Each h
 ## **Contents**
 
 - [**Portfolio**](#portfolio)
+  - [**Contents**](#contents)
 - [**Personal Projects**](#personal-projects)
   - [**Data Collection and Cleaning**](#data-collection-and-cleaning)
     - [- *Scraping the IWF Website for Event Results And Athlete Data*](#--scraping-the-iwf-website-for-event-results-and-athlete-data)
