@@ -41,7 +41,7 @@ The repository is [github.com/cluffa/IWF_data](https://github.com/cluffa/IWF_dat
 
 View this project's [R Notebook](https://github.com/cluffa/nlp_intro_R/blob/master/README.md).  
 
-This was my first time handling large amounts of text data in R as well as using a stacked model. I used 3 random forest models for each of the three text field for each tweet. Text body, keyword, and location. My thought was that combining these three models as inputs to a logistic regression model would help balance the effect of each text field (or group of predictors because I used bag-of-words style encoding). Although this seems like an improvement over a single random forest, the stacking does not give much of an increase in accuracy.
+This was my first time handling large amounts of text data in R. I used linear svm model. Tested with combinations of text body, keyword, and location.
 
 ### - *K-means Image Clustering in R*  
 
