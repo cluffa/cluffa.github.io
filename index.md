@@ -4,8 +4,6 @@ Welcome to my portfolio. Below is a list of school and personal projects. Each h
 
 ## **Contents**
 
-- [**Portfolio**](#portfolio)
-  - [**Contents**](#contents)
 - [**Personal Projects**](#personal-projects)
   - [**Data Collection and Cleaning**](#data-collection-and-cleaning)
     - [- *Scraping the IWF Website for Event Results And Athlete Data*](#--scraping-the-iwf-website-for-event-results-and-athlete-data)
@@ -33,7 +31,7 @@ Welcome to my portfolio. Below is a list of school and personal projects. Each h
 
 ### - *Scraping the IWF Website for Event Results And Athlete Data*
 
-The repository is [github.com/cluffa/IWF_data](https://github.com/cluffa/IWF_data). I scraped many pages for all event results and athlete stats from the International Weightlifting Federation's website. I used python for scraping and cleaned the data in R. I plan to do an analysis on certain topics such as going up in weight after a failed attempt, chosing an opening weight, comparison of countries, and predicting PED use.
+The repository is [github.com/cluffa/IWF_data](https://github.com/cluffa/IWF_data) and an in-progress analysis [here](https://github.com/cluffa/IWF_data/blob/main/analysis/analysis.md). I scraped many pages for all event results and athlete stats from the International Weightlifting Federation's website. I used python for scraping and cleaned the data in R. I plan to do an analysis on certain topics such as going up in weight after a failed attempt, chosing an opening weight, comparison of countries, and predicting PED use.
 
 ## **Machine Learning**
 
