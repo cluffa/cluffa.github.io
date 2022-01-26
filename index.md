@@ -10,7 +10,7 @@ Welcome to my portfolio. Below is a list of school and personal projects. Each h
   - [**Data Collection and Cleaning**](#data-collection-and-cleaning)
     - [- *Scraping the IWF Website for Event Results And Athlete Data*](#--scraping-the-iwf-website-for-event-results-and-athlete-data)
   - [**Machine Learning**](#machine-learning)
-    - [- *Classification of Tweets as Being the Result of a Disaster in R Using a Stacked Random Forest - Logistic Regression Model*](#--classification-of-tweets-as-being-the-result-of-a-disaster-in-r-using-a-stacked-random-forest---logistic-regression-model)
+    - [- *Classification of Tweets as Being the Result of a Disaster in R Using a linear SVM model*](#--classification-of-tweets-as-being-the-result-of-a-disaster-in-r-using-a-stacked-random-forest---logistic-regression-model)
     - [- *K-means Image Clustering in R*](#--k-means-image-clustering-in-r)
     - [- *Predicting Survivors of the Titanic in Python Using Scikit-learn.*](#--predicting-survivors-of-the-titanic-in-python-using-scikit-learn)
     - [- *Recognizing Digit in the MINST dataset with a Convolutional Neural Network using TensorFlow, Keras, and Python*](#--recognizing-digit-in-the-minst-dataset-with-a-convolutional-neural-network-using-tensorflow-keras-and-python)
@@ -37,11 +37,11 @@ The repository is [github.com/cluffa/IWF_data](https://github.com/cluffa/IWF_dat
 
 ## **Machine Learning**
 
-### - *Classification of Tweets as Being the Result of a Disaster in R Using a Stacked Random Forest - Logistic Regression Model*  
+### - *Classification of Tweets as Being the Result of a Disaster in R Using a linear SVM model*  
 
 View this project's [R Notebook](https://github.com/cluffa/nlp_intro_R/blob/master/README.md).  
 
-This was my first time handling large amounts of text data in R. I used linear svm model. Tested with combinations of text body, keyword, and location.
+This was my first time handling large amounts of text data in R. I used a linear svm model. Tested with combinations of text body, keyword, and location.
 
 ### - *K-means Image Clustering in R*  
 
