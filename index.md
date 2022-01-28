@@ -11,7 +11,7 @@ Welcome to my portfolio. Below is a list of school and personal projects. Each h
     - [- *Classification of Tweets as Being the Result of a Disaster in R Using a linear SVM model*](#--classification-of-tweets-as-being-the-result-of-a-disaster-in-r-using-a-stacked-random-forest---logistic-regression-model)
     - [- *K-means Image Clustering in R*](#--k-means-image-clustering-in-r)
     - [- *Predicting Survivors of the Titanic in Python Using Scikit-learn.*](#--predicting-survivors-of-the-titanic-in-python-using-scikit-learn)
-    - [- *Recognizing Digit in the MINST dataset with a Convolutional Neural Network using TensorFlow, Keras, and Python*](#--recognizing-digit-in-the-minst-dataset-with-a-convolutional-neural-network-using-tensorflow-keras-and-python)
+    - [- *Recognizing Digits in the MINST dataset with a Convolutional Neural Network using TensorFlow, Keras, and Python*](#--recognizing-digits-in-the-minst-dataset-with-a-convolutional-neural-network-using-tensorflow-keras-and-python)
 - [**Past School Projects**](#past-school-projects)
   - [**Visualization**](#visualization)
     - [- *Visualization of the Gapminder Dataset Using ggplot/tidyverse Packages in R*](#--visualization-of-the-gapminder-dataset-using-ggplottidyverse-packages-in-r)
@@ -68,7 +68,7 @@ Id  Survived  Pclass                                            Name     Sex   A
 
 This notebook was used to submit scores to Kaggle's "Titanic: Machine Learning From Disaster" competition. With feature engineering like multivariate imputing and matching families, I achieved an accuracy score of 0.801 when submitting. This put me in the top 5% of the leaderboard. I used sklearn libraries for modeling as well as cleaning. The model used is a gradient boosting classifier.
 
-### - *Recognizing Digit in the MINST dataset with a Convolutional Neural Network using TensorFlow, Keras, and Python*  
+### - *Recognizing Digits in the MINST dataset with a Convolutional Neural Network using TensorFlow, Keras, and Python*  
 
 View this project's [Jupyter Notebook](https://github.com/cluffa/digit_recognizer/blob/master/digits_tfnn.ipynb) using neural networks and [Jupyter Notebook](https://github.com/cluffa/digit_recognizer/blob/master/digits.ipynb) using a standard machine learning model.  
 
