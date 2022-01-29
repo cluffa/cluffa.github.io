@@ -9,7 +9,6 @@ Welcome to my portfolio. Below is a list of school and personal projects. Each h
     - [- *Scraping the IWF Website for Event Results And Athlete Data*](#--scraping-the-iwf-website-for-event-results-and-athlete-data)
   - [**Machine Learning**](#machine-learning)
     - [- *Classification of Tweets as Being the Result of a Disaster in R Using a linear SVM model*](#--classification-of-tweets-as-being-the-result-of-a-disaster-in-r-using-a-stacked-random-forest---logistic-regression-model)
-    - [- *K-means Image Clustering in R*](#--k-means-image-clustering-in-r)
     - [- *Predicting Survivors of the Titanic in Python Using Scikit-learn.*](#--predicting-survivors-of-the-titanic-in-python-using-scikit-learn)
     - [- *Recognizing Digits in the MINST dataset with a Convolutional Neural Network using TensorFlow, Keras, and Python*](#--recognizing-digits-in-the-minst-dataset-with-a-convolutional-neural-network-using-tensorflow-keras-and-python)
 - [**Past School Projects**](#past-school-projects)
@@ -40,18 +39,6 @@ The repository is [github.com/cluffa/IWF_data](https://github.com/cluffa/IWF_dat
 View this project's [R Notebook](https://github.com/cluffa/nlp_intro_R/blob/master/nlp_intro_model.md).  
 
 This was my first time handling large amounts of text data in R. I used a linear svm model. Tested with combinations of text body, keyword, and location.
-
-### - *K-means Image Clustering in R*  
-
-View this project's [R Notebook](https://github.com/cluffa/kmeans_image_clustering_R/blob/master/README.md).  
-
-![clothing](./images/full_clothing.png)
-
-High Heeled Shoes             |  Long Sleeved Shirts
-:-------------------------:|:-------------------------:
-![](./images/shoes.png)  |  ![](./images/shirts.png)
-
-This project was an experiment with unsupervised learning and clustering in R using a k-means model. I started off with a set of labeled clothing items. I removed labels and clustered them into different amounts of groups using different types of image processing. The pictures above are 2 out of 10 groups that were clustered based on the shape of the clothing. Other k-means models with no image processing had the tendency to cluster based on brightness and it was negatively effecting the grouping of different item types. These two are easily identifiable as high heeled shoes and long sleeved shirts.  
 
 ### - *Predicting Survivors of the Titanic in Python Using Scikit-learn.*  
 
