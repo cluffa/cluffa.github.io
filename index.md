@@ -35,7 +35,7 @@ The repository is [github.com/cluffa/IWF_data](https://github.com/cluffa/IWF_dat
 
 ### - *Exploring Past Weightlifting Meet Results*
 
-Work in progress analysis mention above analysis [here](https://github.com/cluffa/IWF_data/blob/main/analysis/analysis.md).
+Work in progress analysis [here](https://github.com/cluffa/IWF_data/blob/main/analysis/analysis.md).
 
 ## **Machine Learning**
 
