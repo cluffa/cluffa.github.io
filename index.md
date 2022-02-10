@@ -2,10 +2,8 @@
 Welcome to my portfolio. Below is a list of school and personal projects. Each has a description and links to a final report and source code or a notebook.
 
 - [**Personal Projects**](#personal-projects)
-  - [**Data Collection and Cleaning**](#data-collection-and-cleaning)
+  - [**Exploratory Data Analysis, Data Collection, and Cleaning**](#exploratory-data-analysis-data-collection-and-cleaning)
     - [- *Scraping the IWF Website for Event Results And Athlete Data*](#--scraping-the-iwf-website-for-event-results-and-athlete-data)
-  - [**Exploratory Data Analysis**](#exploratory-data-analysis)
-    - [- *Exploring Past Weightlifting Meet Results*](#--exploring-past-weightlifting-meet-results)
   - [**Machine Learning**](#machine-learning)
     - [- *Classification of Tweets as Being the Result of a Disaster in R Using a linear SVM model*](#--classification-of-tweets-as-being-the-result-of-a-disaster-in-r-using-a-linear-svm-model)
     - [- *Predicting Survivors of the Titanic in Python Using Scikit-learn.*](#--predicting-survivors-of-the-titanic-in-python-using-scikit-learn)
@@ -25,17 +23,13 @@ Welcome to my portfolio. Below is a list of school and personal projects. Each h
 
 # **Personal Projects**
 
-## **Data Collection and Cleaning**
+## **Exploratory Data Analysis, Data Collection, and Cleaning**
 
 ### - *Scraping the IWF Website for Event Results And Athlete Data*
 
 The repository is [github.com/cluffa/IWF_data](https://github.com/cluffa/IWF_data). I scraped many pages for all event results and athlete stats from the International Weightlifting Federation's website. I used python for scraping. The data was cleaned and formatted in R because I plan to use R for an Analysis of this data. The analysis will cover some topics such as going up in weight after a failed attempt, choosing an opening weight, comparison of countries and athletes, and predicting PED use.
 
-## **Exploratory Data Analysis**
-
-### - *Exploring Past Weightlifting Meet Results*
-
-Work in progress analysis [here](https://github.com/cluffa/IWF_data/blob/main/analysis/analysis.md).
+Work in progress analysis [here](https://cluffa.github.io/IWF_data/).
 
 ## **Machine Learning**
 
