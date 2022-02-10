@@ -80,8 +80,8 @@ The focus of this project was to explore the famous Gapminder dataset visually u
 
 ### - *Analysis of Homicides in the US Over Time Using R and an ARMA/SARIMA Model*
 
-View this project's [final report](https://github.com/cluffa/stat5550project/blob/master/final_project_Alex_Cluff.pdf) and [source code](https://github.com/cluffa/stat5550project/blob/master/final_project_Alex_Cluff.Rmd).  
-![homicide predictions](https://github.com/cluffa/stat5550project/blob/master/final_project_Alex_Cluff_files/figure-gfm/unnamed-chunk-13-1.png?raw=true)  
+View this project's [final report](https://cluffa.github.io/stat5550project/) and [source code](https://github.com/cluffa/stat5550project/blob/master/final_project_Alex_Cluff.Rmd).  
+![homicide predictions](https://cluffa.github.io/stat5550project/index_files/figure-html/unnamed-chunk-13-1.png)  
 
 This project was based around forecasting methods. I find overall trends, monthly seasonality, and fit ARIMA and SARIMA models. I compare the two model's performance as well as fit. I then forecasted homicides for the next 24 months.
 
