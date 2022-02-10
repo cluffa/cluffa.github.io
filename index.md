@@ -35,7 +35,7 @@ Work in progress analysis [here](https://cluffa.github.io/IWF_data/).
 
 ### - *Classification of Tweets as Being the Result of a Disaster in R Using a linear SVM model*  
 
-View this project's [R Notebook](https://github.com/cluffa/nlp_intro_R/blob/master/nlp_intro_model.md).  
+View this project's [R Notebook](https://cluffa.github.io/disaster_tweets_nlp_svm/).  
 
 This was my first time handling large amounts of text data in R. I used a linear svm model. Tested with combinations of text body, keyword, and location.
 
