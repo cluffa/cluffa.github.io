@@ -8,6 +8,8 @@ Welcome to my portfolio. Below is a list of school and personal projects. Each h
     - [- *Classification of Tweets as Being the Result of a Disaster in R Using a linear SVM model*](#--classification-of-tweets-as-being-the-result-of-a-disaster-in-r-using-a-linear-svm-model)
     - [- *Predicting Survivors of the Titanic in Python Using Scikit-learn.*](#--predicting-survivors-of-the-titanic-in-python-using-scikit-learn)
     - [- *Recognizing Digits in the MINST dataset with a Convolutional Neural Network using TensorFlow, Keras, and Python*](#--recognizing-digits-in-the-minst-dataset-with-a-convolutional-neural-network-using-tensorflow-keras-and-python)
+  - [**Other**](#other)
+    - [- *Recreating Wordle in Python with a SQL Database for Scores*](#--recreating-wordle-in-python-with-a-sql-database-for-scores)
 - [**Past School Projects**](#past-school-projects)
   - [**Visualization**](#visualization)
     - [- *Visualization of the Gapminder Dataset Using ggplot/tidyverse Packages in R*](#--visualization-of-the-gapminder-dataset-using-ggplottidyverse-packages-in-r)
@@ -61,6 +63,16 @@ View this project's [Jupyter Notebook](https://github.com/cluffa/digit_recognize
 ![digits](./images/digits.png)
 
 This is another Kaggle competition. I achieved 97.4% testing accuracy with an XGBoost model and 99.1% with a convolutional neural network using a TensorFlow keras sequential model.
+
+## **Other**
+
+### - *Recreating Wordle in Python with a SQL Database for Scores*
+
+Repository: <https://github.com/cluffa/pyordle>
+
+![game](./images/game.png)
+
+This was an fun side project where my goal was to recreate wordle in the command line using python. I was also able to further my understanding of databases and postgreSQL by using elephantSQL to host a table of the scores. Every time a game is completed, a log is added to the database with a name, date, word, and number of guesses. Then a query is executed to display basic stats and game history.
 
 <br /><br />
 
