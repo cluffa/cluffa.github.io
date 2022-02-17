@@ -70,11 +70,11 @@ This is another Kaggle competition. I achieved 97.4% testing accuracy with an XG
 
 Repository: <https://github.com/cluffa/pyordle>
 
-| Game      | Game History/Leaderboard |
-| ----------- | ----------- |
-| ![game](https://github.com/cluffa/pyordle/blob/6f7b1b4618cf972aa3989e8e2dced96d33b85f39/images/gameplay.png?raw=true)  | ![stats](https://github.com/cluffa/pyordle/blob/6f7b1b4618cf972aa3989e8e2dced96d33b85f39/images/stats.png?raw=true)       |
+| Game      | Game History/Leaderboard | Queries |
+| ----------- | ----------- | ----------- |
+| ![game](https://github.com/cluffa/pyordle/blob/6f7b1b4618cf972aa3989e8e2dced96d33b85f39/images/gameplay.png?raw=true)  | ![stats](https://github.com/cluffa/pyordle/blob/6f7b1b4618cf972aa3989e8e2dced96d33b85f39/images/stats.png?raw=true) | ![example](images/queries.png)
 
-This was an fun side project where my goal was to recreate wordle in the command line using python. I was also able to further my understanding of databases and postgreSQL by using elephantSQL to host a table of the scores. Every time a game is completed, a log is added to the database with a name, date, word, and number of guesses. Then a query is executed to display basic stats and game history.
+This was a fun side project where my goal was to recreate wordle in the command line using python. I was also able to further my understanding of databases and postgreSQL by using elephantSQL to host a table of the scores. Every time a game is completed, a log is added to the database with a name, date, word, and number of guesses. Then a query is executed to display basic stats and game history.
 
 <br /><br />
 
