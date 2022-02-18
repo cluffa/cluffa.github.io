@@ -72,10 +72,13 @@ Repository: <https://github.com/cluffa/wordpy>
 
 | Game      | Game History/Leaderboard |
 | ----------- | ----------- |
-| ![game](images/gameplay.png)  | ![stats](images/stats.png) |
+| ![game](images/gameplay.png)  | ![stats](images/stats.png) |  
+
 | Queries |
 | ----------- |
-| ![example](images/queries.png) |
+| ![example](images/queries.png) 
+
+
 This was a fun side project where my goal was to recreate wordle in the command line using python. I was also able to further my understanding of databases and postgreSQL by using elephantSQL to host a table of the scores. Every time a game is completed, a log is added to the database with a name, date, word, and number of guesses. Then a query is executed to display basic stats and game history.
 
 <br /><br />
