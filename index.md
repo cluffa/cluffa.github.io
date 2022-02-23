@@ -80,9 +80,10 @@ Repository: <https://github.com/cluffa/wordpy>
 | ----------- | ----------- |
 | ![game](images/gameplay.png)  | ![stats](images/stats.png) |  
 
-| Queries |
-| ----------- |
-| ![example](images/queries.png) 
+**Some of the queries:**
+| Logging | Rankings | Personal Game History |
+| ----------- | ---------- | -----------| 
+| ![example](images/queries1.png) | ![example](images/queries2.png) | ![example](images/queries3.png) |
 
 This was a fun side project where my goal was to recreate wordle and use a SQL database for leader boards. I was able to further my understanding of databases and postgreSQL by using elephantSQL to host a table of the scores. Every time a game is completed, a log is added to the database with a name, date, word, number of guesses, and some other metrics. Then a query is executed to display basic stats and game history.
 
