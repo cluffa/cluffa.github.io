@@ -10,7 +10,7 @@ Below is a list of school and personal projects. Each has a description and link
     - [*Disaster Tweet Classification in R Using a linear SVM model*](#disaster-tweet-classification-in-r-using-a-linear-svm-model)
     - [*Predicting Survivors of the Titanic in Python*](#predicting-survivors-of-the-titanic-in-python)
     - [*Recognizing Handwritten Digits with a Convolutional Neural Network using Python and TensorFlow*](#recognizing-handwritten-digits-with-a-convolutional-neural-network-using-python-and-tensorflow)
-  - [**Other**](#other)
+  - [**SQL and General Programming**](#sql-and-general-programming)
     - [*Recreating Wordle in Python with a SQL Database for Scores*](#recreating-wordle-in-python-with-a-sql-database-for-scores)
 - [**Past School Projects**](#past-school-projects)
   - [**Visualization**](#visualization)
@@ -70,7 +70,7 @@ View this project's [Jupyter Notebook](https://github.com/cluffa/digit_recognize
 
 This is another Kaggle competition. The goal was to classify handwritten digits like the ones above. I wanted to compare the accuracy of traditional machine learning models with a convolutional neural network (CNN). I achieved 97.4% testing accuracy with an XGBoost model and 99.1% with a CNN using a TensorFlow keras sequential model. The traditional model did much better than I was expecting. However, these images are centered and scaled to be similar to each other. In a more uncontrolled environment I would expect the accuracy of the traditional type of model to drop off.
 
-## **Other**
+## **SQL and General Programming**
 
 ### *Recreating Wordle in Python with a SQL Database for Scores*
 
@@ -84,7 +84,7 @@ Repository: <https://github.com/cluffa/wordpy>
 | ----------- |
 | ![example](images/queries.png) 
 
-This was a fun side project where my goal was to recreate wordle and use a SQL database for leader boards. I was also able to further my understanding of databases and postgreSQL by using elephantSQL to host a table of the scores. Every time a game is completed, a log is added to the database with a name, date, word, number of guesses, and some other metrics. Then a query is executed to display basic stats and game history.
+This was a fun side project where my goal was to recreate wordle and use a SQL database for leader boards. I was able to further my understanding of databases and postgreSQL by using elephantSQL to host a table of the scores. Every time a game is completed, a log is added to the database with a name, date, word, number of guesses, and some other metrics. Then a query is executed to display basic stats and game history.
 
 <br /><br />
 
