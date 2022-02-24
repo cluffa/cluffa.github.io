@@ -58,7 +58,7 @@ Id  Survived  Pclass                                            Name     Sex   A
  5         0       3                      Allen, Mr. William Henry    male  35.0      0      0         373450   8.0500   NaN        S
 ```
  
- The main goal was to try to predict survivors based on what we know about each passenger. I mainly used scikit-learn pipelines to make a clear transformation pipeline for the data. This includes encoding, multivariate imputing, as well as training. I used a gradient boosting classifier model where hyperparameters were optimized by grid search and cross-validation.
+ The main goal was to try to predict survivors based on what we know about each passenger. I used scikit-learn pipelines to make a clear transformation pipeline for the data. This includes encoding, multivariate imputing, as well as training. I used a gradient boosting classifier model where hyperparameters were optimized by grid search and cross-validation.
 
 This notebook was used to submit scores to Kaggle's "Titanic: Machine Learning From Disaster" competition. With feature engineering like multivariate imputing and matching families, I achieved an accuracy score of 0.801 when submitting. This put me in the top 5% of the leader board.
 
