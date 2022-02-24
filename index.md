@@ -80,7 +80,7 @@ Repository: <https://github.com/cluffa/wordpy>
 | ----------- | ----------- |
 | ![game](images/gameplay.png)  | ![stats](images/stats.png) |  
 
-**Some of the queries:**
+**Some of the queries:**  
 | Logging | Rankings | Personal Game History |
 | ----------- | ---------- | -----------| 
 | ![example](images/queries1.png) | ![example](images/queries2.png) | ![example](images/queries3.png) |
