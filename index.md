@@ -1,4 +1,8 @@
-
+---
+layout: default
+title: Portfolio
+nav_order: 1
+---
 **Welcome to my portfolio**  
 Below is a list of school and personal projects. Each has a description and links to a final report, source code, or a notebook.
 
@@ -76,11 +80,12 @@ This is another Kaggle competition. The goal was to classify handwritten digits 
 
 Repository: <https://github.com/cluffa/wordpy>
 
-| Game      | Game History/Leaderboard |
+| Game      | Game History/Leader board |
 | ----------- | ----------- |
 | ![game](images/gameplay.png)  | ![stats](images/stats.png) |  
 
 **Some of the queries:**  
+
 | Logging | Rankings | Personal Game History |
 | ----------- | ----------- | ----------- |
 | ![example](images/queries1.png) | ![example](images/queries2.png) | ![example](images/queries3.png) |  
