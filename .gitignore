@@ -1,2 +1,4 @@
 .vscode/spellright.dict
-files/.~lock.alex_cluff_resume.odt#
+_site/
+.jekyll-cache/
+.sass-cache/
