@@ -37,6 +37,8 @@ Below is a list of school and personal projects. Each has a description and link
 
 The repository is [github.com/cluffa/IWF_data](https://github.com/cluffa/IWF_data). I scraped many pages for all event results and athlete stats from the International Weightlifting Federation's website. I used python for scraping. I needed the data to be easily imported into R, so I used R to clean and save the data.
 
+I put the data into a shiny dashboard [here](http://alex-server.rcluff.com:3838/IWF-Data-Explorer/).
+
 I am currently exploring the data and working on an analysis. It will cover some topics such as competition strategy, comparison of countries and athletes, and predicting PED use.
 
 Work in progress analysis [here](https://cluffa.github.io/IWF_data/).
