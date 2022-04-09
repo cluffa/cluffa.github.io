@@ -8,12 +8,13 @@ Below is a list of school and personal projects. Each has a description and link
 
 **Table of Contents:**
 - [**Personal Projects**](#personal-projects)
-  - [**Exploratory Data Analysis, Data Collection, and Cleaning**](#exploratory-data-analysis-data-collection-and-cleaning)
+  - [**Data Collection, and Cleaning**](#data-collection-and-cleaning)
     - [*Scraping the IWF Website for Event Results And Athlete Data*](#scraping-the-iwf-website-for-event-results-and-athlete-data)
+  - [**Dashboards**](#dashboards)
   - [**Machine Learning**](#machine-learning)
     - [*Disaster Tweet Classification in R Using a linear SVM model*](#disaster-tweet-classification-in-r-using-a-linear-svm-model)
     - [*Predicting Survivors of the Titanic in Python*](#predicting-survivors-of-the-titanic-in-python)
-    - [*Recognizing Handwritten Digits with a Convolutional Neural Network using Python and TensorFlow*](#recognizing-handwritten-digits-with-a-convolutional-neural-network-using-python-and-tensorflow)
+    - [*Recognizing Handwritten Digits with a Convolutional Neural Network using Python Deep Learning Frameworks*](#recognizing-handwritten-digits-with-a-convolutional-neural-network-using-python-deep-learning-frameworks)
   - [**SQL and General Programming**](#sql-and-general-programming)
     - [*Recreating Wordle in Python with a SQL Database for Scores*](#recreating-wordle-in-python-with-a-sql-database-for-scores)
 - [**Past School Projects**](#past-school-projects)
@@ -31,17 +32,23 @@ Below is a list of school and personal projects. Each has a description and link
 
 # **Personal Projects**
 
-## **Exploratory Data Analysis, Data Collection, and Cleaning**
+## **Data Collection, and Cleaning**
 
 ### *Scraping the IWF Website for Event Results And Athlete Data*
 
 The repository is [github.com/cluffa/IWF_data](https://github.com/cluffa/IWF_data). I scraped many pages for all event results and athlete stats from the International Weightlifting Federation's website. I used python for scraping. I needed the data to be easily imported into R, so I used R to clean and save the data.
 
-I put the data into a shiny dashboard [here](http://alex-server.rcluff.com:3838/IWF-Data-Explorer/).
-
 I am currently exploring the data and working on an analysis. It will cover some topics such as competition strategy, comparison of countries and athletes, and predicting PED use.
 
 Work in progress analysis [here](https://cluffa.github.io/IWF_data/).
+
+## **Dashboards**
+
+Dashboards are running [here](http://alex-server.rcluff.com:3838) and the source code is at [github.com/cluffa/MyShinyServer](https://github.com/cluffa/MyShinyServer)
+
+I have a dashboard for easily filtering IWF event results and graphing athlete comparisons. There is also a dashboard I use for tracking weight loss trends with a linear regression model. It syncs with google sheets and my smart scale.
+
+<iframe height="400" width="100%" frameborder="no" src="http://alex-server.rcluff.com:3838/Weight-Loss-Trends/"> </iframe>
 
 ## **Machine Learning**
 
@@ -68,7 +75,7 @@ Id  Survived  Pclass                                            Name     Sex   A
 
 This notebook was used to submit scores to Kaggle's "Titanic: Machine Learning From Disaster" competition. With feature engineering like multivariate imputing and matching families, I achieved an accuracy score of 0.801 when submitting. This put me in the top 5% of the leader board.
 
-### *Recognizing Handwritten Digits with a Convolutional Neural Network using Python and TensorFlow*  
+### *Recognizing Handwritten Digits with a Convolutional Neural Network using Python Deep Learning Frameworks*  
 
 View this project's [Jupyter Notebook](https://github.com/cluffa/digit_recognizer/blob/master/digits_tfnn.ipynb) using neural networks and [Jupyter Notebook](https://github.com/cluffa/digit_recognizer/blob/master/digits.ipynb) using a standard machine learning model.  
 
