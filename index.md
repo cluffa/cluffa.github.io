@@ -11,8 +11,8 @@ Below is a list of school and personal projects. Each has a description and link
   - [**Data Collection, and Cleaning**](#data-collection-and-cleaning)
     - [*Scraping the IWF Website for Event Results And Athlete Data*](#scraping-the-iwf-website-for-event-results-and-athlete-data)
   - [**Dashboards**](#dashboards)
-    - [*Weightlifting Results*](#weightlifting-results)
-    - [*Weightloss Tracking*](#weightloss-tracking)
+    - [*Weightlifting Results Dashboad*](#weightlifting-results-dashboad)
+    - [*Weightloss Tracking Dashboard*](#weightloss-tracking-dashboard)
   - [**Machine Learning**](#machine-learning)
     - [*Disaster Tweet Classification in R Using a linear SVM model*](#disaster-tweet-classification-in-r-using-a-linear-svm-model)
     - [*Predicting Survivors of the Titanic in Python*](#predicting-survivors-of-the-titanic-in-python)
@@ -50,11 +50,11 @@ Dashboards are running [here](http://alex-server.rcluff.com:3838) and the source
 
 I have a dashboard for easily filtering IWF event results and graphing athlete comparisons. There is also a dashboard I use for tracking weight loss trends with a linear regression model. It syncs with google sheets and my smart scale.
 
-### *Weightlifting Results*
+### *Weightlifting Results Dashboad*
 
 ![weightlifting](./images/iwfdash.png)
 
-### *Weightloss Tracking*
+### *Weightloss Tracking Dashboard*
 
 ![weightloss](./images/weightdash.png)
 
