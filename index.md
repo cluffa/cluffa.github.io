@@ -8,7 +8,7 @@ Below is a list of school and personal projects. Each has a description and link
 
 **Table of Contents:**
 - [**Personal Projects**](#personal-projects)
-  - [**Data Collection, and Cleaning**](#data-collection-and-cleaning)
+  - [**Data Collection and Cleaning**](#data-collection-and-cleaning)
     - [*Scraping the IWF Website for Event Results And Athlete Data*](#scraping-the-iwf-website-for-event-results-and-athlete-data)
   - [**Dashboards**](#dashboards)
     - [*Weightlifting Results Dashboad*](#weightlifting-results-dashboad)
@@ -34,7 +34,7 @@ Below is a list of school and personal projects. Each has a description and link
 
 # **Personal Projects**
 
-## **Data Collection, and Cleaning**
+## **Data Collection and Cleaning**
 
 ### *Scraping the IWF Website for Event Results And Athlete Data*
 
