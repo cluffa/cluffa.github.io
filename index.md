@@ -15,7 +15,7 @@ Below is a list of school and personal projects. Each has a description and link
     - [*Weightloss Tracking Dashboard*](#weightloss-tracking-dashboard)
   - [**Machine Learning**](#machine-learning)
     - [*Disaster Tweet Classification in R Using a linear SVM model*](#disaster-tweet-classification-in-r-using-a-linear-svm-model)
-    - [*Predicting Survivors of the Titanic in Python*](#predicting-survivors-of-the-titanic-in-python)
+    - [*Predicting Survivors of the Titanic*](#predicting-survivors-of-the-titanic)
     - [*Barbell Tracking for Performance Metrics Using Deep learning*](#barbell-tracking-for-performance-metrics-using-deep-learning)
   - [**SQL and General Programming**](#sql-and-general-programming)
     - [*Recreating Wordle in Python with a SQL Database for Scores*](#recreating-wordle-in-python-with-a-sql-database-for-scores)
@@ -66,7 +66,7 @@ View this project's [R Notebook](https://cluffa.github.io/disaster_tweets_nlp_sv
 
 The data is a collection of tweets that have been labeled as pertaining to a disaster or not. For example, one might be about the damage of an earthquake while another is about a sports team. Each tweet has a text body, keyword, and location. I used a linear support vector machine (SVM) model and tested the model with combinations of text body, keyword, and location.
 
-### *Predicting Survivors of the Titanic in Python*  
+### *Predicting Survivors of the Titanic*  
 
 View this project's [Jupyter Notebook](https://github.com/cluffa/titanic/blob/master/titanicV2.ipynb). Most of the graphing and data exploration was done in the [first version of the notebook](https://github.com/cluffa/titanic/blob/master/titanic.ipynb) where I added no features.
 
