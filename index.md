@@ -46,7 +46,7 @@ Work in progress analysis [here](https://cluffa.github.io/IWF_data/).
 
 ## **Dashboards**
 
-Dashboards are running [here](http://alex-server.rcluff.com:3838) and the source code is at [github.com/cluffa/MyShinyServer](https://github.com/cluffa/MyShinyServer)
+Dashboards are running at https://cluffa.shinyapps.io/Weight-Loss-Trends/ and https://cluffa.shinyapps.io/IWF-Data-Explorer/. The source code is at [github.com/cluffa/MyShinyDashboards](https://github.com/cluffa/MyShinyDashboards)
 
 I have a dashboard for easily filtering IWF event results and graphing athlete comparisons. There is also a dashboard I use for tracking weight loss trends with a linear regression model. It syncs with google sheets and my smart scale.
 
