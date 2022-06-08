@@ -11,12 +11,12 @@ Below is a list of school and personal projects. Each has a description and link
   - [**Data Collection and Cleaning**](#data-collection-and-cleaning)
     - [*Scraping the IWF Website for Event Results And Athlete Data*](#scraping-the-iwf-website-for-event-results-and-athlete-data)
   - [**Dashboards**](#dashboards)
-    - [*Weightlifting Results Dashboad*](#weightlifting-results-dashboad)
+    - [*Weightlifting Results Dashboard*](#weightlifting-results-dashboard)
     - [*Weightloss Tracking Dashboard*](#weightloss-tracking-dashboard)
   - [**Machine Learning**](#machine-learning)
     - [*Disaster Tweet Classification in R Using a linear SVM model*](#disaster-tweet-classification-in-r-using-a-linear-svm-model)
-    - [*Predicting Survivors of the Titanic in Python*](#predicting-survivors-of-the-titanic-in-python)
-    - [*Recognizing Handwritten Digits with a Convolutional Neural Network using Python Deep Learning Frameworks*](#recognizing-handwritten-digits-with-a-convolutional-neural-network-using-python-deep-learning-frameworks)
+    - [*Predicting Survivors of the Titanic*](#predicting-survivors-of-the-titanic)
+    - [*Barbell Tracking for Performance Metrics Using Deep learning*](#barbell-tracking-for-performance-metrics-using-deep-learning)
   - [**SQL and General Programming**](#sql-and-general-programming)
     - [*Recreating Wordle in Python with a SQL Database for Scores*](#recreating-wordle-in-python-with-a-sql-database-for-scores)
 - [**Past School Projects**](#past-school-projects)
@@ -46,11 +46,11 @@ Work in progress analysis [here](https://cluffa.github.io/IWF_data/).
 
 ## **Dashboards**
 
-Dashboards are running [here](http://alex-server.rcluff.com:3838) and the source code is at [github.com/cluffa/MyShinyServer](https://github.com/cluffa/MyShinyServer)
+Dashboards are running at <https://cluffa.shinyapps.io/Weight-Loss-Trends/> and <https://cluffa.shinyapps.io/IWF-Data-Explorer/>. The source code is at [github.com/cluffa/MyShinyDashboards](https://github.com/cluffa/MyShinyDashboards)
 
 I have a dashboard for easily filtering IWF event results and graphing athlete comparisons. There is also a dashboard I use for tracking weight loss trends with a linear regression model. It syncs with google sheets and my smart scale.
 
-### *Weightlifting Results Dashboad*
+### *Weightlifting Results Dashboard*
 
 ![weightlifting](./images/iwfdash.png)
 
@@ -66,36 +66,27 @@ View this project's [R Notebook](https://cluffa.github.io/disaster_tweets_nlp_sv
 
 The data is a collection of tweets that have been labeled as pertaining to a disaster or not. For example, one might be about the damage of an earthquake while another is about a sports team. Each tweet has a text body, keyword, and location. I used a linear support vector machine (SVM) model and tested the model with combinations of text body, keyword, and location.
 
-### *Predicting Survivors of the Titanic in Python*  
+### *Predicting Survivors of the Titanic*  
 
 View this project's [Jupyter Notebook](https://github.com/cluffa/titanic/blob/master/titanicV2.ipynb). Most of the graphing and data exploration was done in the [first version of the notebook](https://github.com/cluffa/titanic/blob/master/titanic.ipynb) where I added no features.
 
-```
-Id  Survived  Pclass                                            Name     Sex   Age  SibSp  Parch         Ticket     Fare Cabin Embarked
- 1         0       3                       Braund, Mr. Owen Harris    male  22.0      1      0      A/5 21171   7.2500   NaN        S
- 2         1       1  Cumings, Mrs. John Bradley (Florence Brig...  female  38.0      1      0       PC 17599  71.2833   C85        C
- 3         1       3                        Heikkinen, Miss. Laina  female  26.0      0      0  STON/O2. 3...   7.9250   NaN        S
- 4         1       1  Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  35.0      1      0         113803  53.1000  C123        S
- 5         0       3                      Allen, Mr. William Henry    male  35.0      0      0         373450   8.0500   NaN        S
-```
- 
- The main goal was to try to predict survivors based on what we know about each passenger. I used scikit-learn pipelines to make a clear transformation pipeline for the data. This includes encoding, multivariate imputing, as well as training. I used a gradient boosting classifier model where hyperparameters were optimized by grid search and cross-validation.
+The main goal was to try to predict survivors based on what we know about each passenger. I used scikit-learn pipelines to make a clear transformation pipeline for the data. This includes encoding, multivariate imputing, as well as training. I used a gradient boosting classifier model where hyperparameters were optimized by grid search and cross-validation. This notebook was used to submit scores to Kaggle's "Titanic: Machine Learning From Disaster" competition. With feature engineering like multivariate imputing and matching families, I achieved an accuracy score of 0.801 when submitting. This put me in the top 5% of the leader board.
 
-This notebook was used to submit scores to Kaggle's "Titanic: Machine Learning From Disaster" competition. With feature engineering like multivariate imputing and matching families, I achieved an accuracy score of 0.801 when submitting. This put me in the top 5% of the leader board.
+### *Barbell Tracking for Performance Metrics Using Deep learning*
 
-### *Recognizing Handwritten Digits with a Convolutional Neural Network using Python Deep Learning Frameworks*  
+Github repository: [github.com/cluffa/bar_tracking](https://github.com/cluffa/bar_tracking)
 
-View this project's [Jupyter Notebook](https://github.com/cluffa/digit_recognizer/blob/master/digits_tfnn.ipynb) using neural networks and [Jupyter Notebook](https://github.com/cluffa/digit_recognizer/blob/master/digits.ipynb) using a standard machine learning model.  
+I created this model and python package to be able to track a barbell and get different metrics from a video. It works using a convolutional neural network with 4 million parameters. It takes a 320x320x3 image/matrix input and outputs a segmentation of the image (aka mask) where each of the two classes has a different layer. Ellipses are fit to the largest contours found in each layer of the mask. This is a reliable way find the center, even if the object is partially out of frame. The average of the two sides is used for the metrics. This is a good way to combat some of the distortions due to off-axis movements like rotation. The plates are always a constant 450 mm, so I was able to scale the units from pixels to meters using the dimensions of the ellipses. The position at every time is then used to create two splines, f1(t)=x and f2(t)=y. The splines allow for a variable time resolution as well as missing values. The velocity and acceleration are derived from the splines. These also go through Savgov filters remove distortions and noise.
 
-![digits](./images/digits.png)
+![pipeline](images/tracking_pipeline.gif)
 
-This is another Kaggle competition. The goal was to classify handwritten digits like the ones above. I wanted to compare the accuracy of traditional machine learning models with a convolutional neural network (CNN). I achieved 97.4% testing accuracy with an XGBoost model and 99.1% with a CNN using a TensorFlow keras sequential model. The traditional model did much better than I was expecting. However, these images are centered and scaled to be similar to each other. In a more uncontrolled environment I would expect the accuracy of the traditional type of model to drop off.
+![graphs](images/tracking_graphs.png)
 
 ## **SQL and General Programming**
 
 ### *Recreating Wordle in Python with a SQL Database for Scores*
 
-Repository: <https://github.com/cluffa/wordpy>
+Github repository: [github.com/cluffa/wordpy](https://github.com/cluffa/wordpy)
 
 | Game      | Game History/Leader board |
 | ----------- | ----------- |
