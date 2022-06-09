@@ -11,8 +11,6 @@ Below is a list of school and personal projects. Each has a description and link
   - [**Data Collection and Cleaning**](#data-collection-and-cleaning)
     - [*Scraping the IWF Website for Event Results And Athlete Data*](#scraping-the-iwf-website-for-event-results-and-athlete-data)
   - [**Dashboards**](#dashboards)
-    - [*Weightlifting Results Dashboard*](#weightlifting-results-dashboard)
-    - [*Weightloss Tracking Dashboard*](#weightloss-tracking-dashboard)
   - [**Machine Learning**](#machine-learning)
     - [*Disaster Tweet Classification in R Using a linear SVM model*](#disaster-tweet-classification-in-r-using-a-linear-svm-model)
     - [*Predicting Survivors of the Titanic*](#predicting-survivors-of-the-titanic)
@@ -48,15 +46,9 @@ Work in progress analysis [here](https://cluffa.github.io/IWF_data/).
 
 Dashboards are running at <https://cluffa.shinyapps.io/Weight-Loss-Trends/> and <https://cluffa.shinyapps.io/IWF-Data-Explorer/>. The source code is at [github.com/cluffa/MyShinyDashboards](https://github.com/cluffa/MyShinyDashboards)
 
-I have a dashboard for easily filtering IWF event results and graphing athlete comparisons. There is also a dashboard I use for tracking weight loss trends with a linear regression model. It syncs with google sheets and my smart scale.
+I have designed a dashboard for easily filtering IWF event results and plotting athlete comparisons. There is also a dashboard I use for tracking weight loss trends with a linear regression model.
 
-### *Weightlifting Results Dashboard*
-
-![weightlifting](./images/iwfdash.png)
-
-### *Weightloss Tracking Dashboard*
-
-![weightloss](./images/weightdash.png)
+![dashboards](./images/dashboards.png)
 
 ## **Machine Learning**
 
@@ -68,7 +60,7 @@ The data is a collection of tweets that have been labeled as pertaining to a dis
 
 ### *Predicting Survivors of the Titanic*  
 
-View this project's [Jupyter Notebook](https://github.com/cluffa/titanic/blob/master/titanicV2.ipynb). Most of the graphing and data exploration was done in the [first version of the notebook](https://github.com/cluffa/titanic/blob/master/titanic.ipynb) where I added no features.
+View this project's [Jupyter Notebook](https://github.com/cluffa/titanic/blob/master/titanicV2.ipynb). Most of the plotting and data exploration was done in the [first version of the notebook](https://github.com/cluffa/titanic/blob/master/titanic.ipynb) where I added no features.
 
 The main goal was to try to predict survivors based on what we know about each passenger. I used scikit-learn pipelines to make a clear transformation pipeline for the data. This includes encoding, multivariate imputing, as well as training. I used a gradient boosting classifier model where hyperparameters were optimized by grid search and cross-validation. This notebook was used to submit scores to Kaggle's "Titanic: Machine Learning From Disaster" competition. With feature engineering like multivariate imputing and matching families, I achieved an accuracy score of 0.801 when submitting. This put me in the top 5% of the leader board.
 
