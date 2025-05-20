@@ -1,9 +1,50 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; url=https://cluffa.github.io/portfolio">
+    <meta charset="UTF-8">
+    <title>cluffa.github.io Public Pages</title>
+    <style>
+      body { font-family: sans-serif; margin: 2em; }
+      ul { line-height: 2; }
+    </style>
+    <script>
+      document.addEventListener('DOMContentLoaded', async () => {
+        const username = "cluffa";
+        const base = `https://${username}.github.io/`;
+        const list = document.getElementById('pages-list');
+        // Fetch all public repos from GitHub API
+        let repos = [];
+        try {
+          const res = await fetch(`https://api.github.com/users/${username}/repos?per_page=100`);
+          if (res.ok) {
+            repos = await res.json();
+          }
+        } catch (e) {
+          // fallback: no repos
+        }
+        for (const repo of repos) {
+          // Only include public repos and skip the special repo that hosts the user/organization page
+          if (repo.private || repo.name === `${username}.github.io`) continue;
+          const url = base + repo.name + "/";
+          try {
+            const headRes = await fetch(url, { method: 'HEAD' });
+            if (headRes.ok) {
+              const li = document.createElement('li');
+              const a = document.createElement('a');
+              a.href = url;
+              a.textContent = repo.name;
+              li.appendChild(a);
+              list.appendChild(li);
+            }
+          } catch (e) {
+            // ignore unreachable
+          }
+        }
+      });
+    </script>
   </head>
   <body>
-    <p>My portfolio has moved, please click <a href="https://cluffa.github.io/portfolio">this link</a>.</p>
+    <h1>Public Pages for cluffa.github.io</h1>
+    <ul id="pages-list"></ul>
   </body>
 </html>
